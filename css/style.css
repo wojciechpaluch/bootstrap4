@@ -1,0 +1,22 @@
+body {
+    background: #F5F5F5;
+}
+
+#header {
+    background: rgba(5,8,240,0.84);
+
+    background: -webkit-linear-gradient(to left, #007bff, #002752);
+    background: url("../images/bg-pattern.png"), linear-gradient(to right, rgba(0,81,255,0.84), rgba(52,0,255,0.84));
+
+}
+
+#navigation {
+    background-color: rgba(255,255,255,0.8);
+    color: black;
+}
+
+#skills {
+    text-align: center;
+    padding-top: 7vh;
+
+}
