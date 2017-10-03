@@ -1,13 +1,15 @@
 body {
     background: #F5F5F5;
+    font-family: "Source Code Pro Medium";
 }
 
 #header {
+    padding-top: 30%;
     background: rgba(5,8,240,0.84);
 
     background: -webkit-linear-gradient(to left, #007bff, #002752);
     background: url("../images/bg-pattern.png"), linear-gradient(to right, rgba(0,81,255,0.84), rgba(52,0,255,0.84));
-
+    color: white;
 }
 
 #navigation {
