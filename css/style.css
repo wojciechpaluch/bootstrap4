@@ -57,8 +57,12 @@ body {
     text-align: center;
 }
 
-.skills-card {
+#skills {
+    background: rgba(0,3,40,0.84)
+}
 
+#skills h1 {
+    color: white;
 }
 
 #navigation:hover {
@@ -70,4 +74,12 @@ body {
     padding-left: 5em;
 }
 
+.skills-card {
+    background-color: #F5F5F5;
+    padding: 2% 2% 2% 2%;
+    border-radius: 25%;
+}
+
+#exp {
+    padding-bottom: 10%;
 }
