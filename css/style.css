@@ -12,6 +12,15 @@ body {
     color: white;
 }
 
+#bash {
+    background: rgba(0,3,40,0.84)
+
+}
+
+#bash h1 {
+    color: white;
+}
+
 #navigation {
     background-color: rgba(255,255,255,0.8);
     color: black;
@@ -20,5 +29,45 @@ body {
 #skills {
     text-align: center;
     padding-top: 7vh;
+
+}
+
+.card-header {
+    background: background: rgba(0,81,255,0.84);
+}
+
+.card-header:hover {
+    background: rgba(0,81,255,0.84);
+    text-decoration-color: black;
+}
+
+.card-header a:hover {
+    color:white;
+}
+
+.card-header:target {
+    color: white;
+}
+
+#exp h1 {
+    padding-top: 5% ;
+}
+
+#exp img {
+    text-align: center;
+}
+
+.skills-card {
+
+}
+
+#navigation:hover {
+    background-color: rgba(0, 3, 40, 0.84);
+    transition-duration: 2s;
+}
+
+#navigation a {
+    padding-left: 5em;
+}
 
 }
