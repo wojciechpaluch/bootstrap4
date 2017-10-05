@@ -33,13 +33,9 @@ body {
 }
 
 .card-header {
-    background: background: rgba(0,81,255,0.84);
+    background: white;
 }
 
-.card-header:hover {
-    background: rgba(0,81,255,0.84);
-    text-decoration-color: black;
-}
 
 .card-header a:hover {
     color:white;
@@ -47,6 +43,12 @@ body {
 
 .card-header:target {
     color: white;
+}
+
+.card-header:hover {
+    background: rgba(0,3,40,0.84);
+    color: white;
+    transition-duration: 2s;
 }
 
 #exp h1 {
