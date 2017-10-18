@@ -38,7 +38,7 @@ body {
 
 
 .card-header a:hover {
-    color:white;
+    color: white;
 }
 
 .card-header:target {
@@ -60,12 +60,15 @@ body {
 }
 
 #skills {
-    background: rgba(0,3,40,0.84)
+    background: rgba(0,3,40,0.84);
+    padding-bottom: 5%;
+    text-justify: auto;
 }
 
 #skills h1 {
     color: white;
 }
+
 
 #navigation:hover {
     background-color: rgba(0, 3, 40, 0.84);
@@ -76,12 +79,12 @@ body {
     padding-left: 5em;
 }
 
-.skills-card {
-    background-color: #F5F5F5;
-    padding: 2% 2% 2% 2%;
-    border-radius: 25%;
-}
 
 #exp {
     padding-bottom: 10%;
 }
+
+#contact {
+    padding-top: 10%;
+}
+
